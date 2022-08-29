@@ -11,7 +11,7 @@ This integration supports a number of methods of authenticating with the network
 
 In addition to the SSH credential, a `enable` password must be also provided.
 ## Permissions
-The user account used for initial SSH login access can be level 1, however the enable password must also be provided.
+TThe user account used for initial SSH login access can be level 0-14, but cannot be privilege level 15. The `enable` password must be configured for this integration to work.
 ## Network Requirements
 By default, TCP port 22 will be used to initiate a SSH connection to the IOS host.
 
